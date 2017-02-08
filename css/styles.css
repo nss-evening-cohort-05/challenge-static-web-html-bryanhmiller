@@ -5,7 +5,7 @@ in addition to black and white. Use these colors consistently in your stylesheet
 	width: 200px;
 	border-radius: 100%;
 	border: 3px solid #a3b0c6;
-	box-shadow: -20px 10px 20px black;
+	box-shadow: -10px 10px 10px black;
 }
 
 table {
@@ -26,5 +26,13 @@ th, td {
 img {
 	width: 60%;
 	height: auto;
+	max-width: 600px;
+	margin: 25px;
+}
+
+.icon {
+	height: 50px;
+	width: 50px;
+}
 
 
