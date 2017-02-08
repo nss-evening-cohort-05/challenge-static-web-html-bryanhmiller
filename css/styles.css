@@ -1,0 +1,30 @@
+/** Color scheme - choose primary, secondary, and tertiary colors 
+in addition to black and white. Use these colors consistently in your stylesheet.*/
+.profile-pic {
+	height: 200px;
+	width: 200px;
+	border-radius: 100%;
+	border: 3px solid #a3b0c6;
+	box-shadow: -20px 10px 20px black;
+}
+
+table {
+	border: 2px solid black;
+	border-collapse: collapse;
+}
+
+th, td {
+	border: 1px solid black;
+	padding: 2px 5px;
+}
+
+.favorite-sites {
+	border: none;
+	margin: 25px;
+}
+
+img {
+	width: 60%;
+	height: auto;
+
+
