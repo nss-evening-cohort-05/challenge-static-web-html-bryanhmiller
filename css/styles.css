@@ -1,32 +1,63 @@
 /** Color scheme - choose primary, secondary, and tertiary colors 
 in addition to black and white. Use these colors consistently in your stylesheet.*/
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	font-family: 'Sansita', sans-serif;
+	background: lightblue;
+}
+
+article {
+	width: 80%;
+	margin: 0 auto;
+}
 .profile-pic {
+	display: block;
+	margin: 20px auto;	
 	height: 200px;
 	width: 200px;
-	border-radius: 100%;
+	border-radius: 50%;
 	border: 3px solid #a3b0c6;
 	box-shadow: -10px 10px 10px black;
 }
 
+h1, h2, h3 {
+	display: block;
+	font-family: 'Anton', sans-serif;
+	text-align: center;
+}
+
+p {
+	font-size: 1.25em;
+}
 table {
+	display: inline-block;
+	margin: 0 39%;
 	border: 2px solid black;
 	border-collapse: collapse;
 }
 
+p {
+	display: inline-block;
+	padding: 0 20%;
+}
+
 th, td {
 	border: 1px solid black;
-	padding: 2px 5px;
+	padding: 10px 25px;
 }
 
 .favorite-sites {
 	border: none;
-	margin: 25px;
+	margin: 20px;
+	margin: 0 39%;
 }
 
 img {
-	width: 60%;
+	width: 100%;
 	height: auto;
-	max-width: 600px;
+	max-width: 800px;
 	margin: 25px;
 }
 
@@ -35,4 +66,8 @@ img {
 	width: 50px;
 }
 
+.text-links {
+	text-decoration: none;
+	color: blue;
+}
 
